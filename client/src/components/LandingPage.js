@@ -1,12 +1,12 @@
 import React from 'react';
-import '../styles/Landing.css' /* Styling is not working */ 
+
+//https://react-bootstrap.github.io/components/carousel/
 
 const Landing = () => {
-
     return (
-    <div>
-        <h1>Landing Page</h1>
-    </div>
+        <div>
+            <h1>Welcome</h1>
+        </div>
     );
 }
 
