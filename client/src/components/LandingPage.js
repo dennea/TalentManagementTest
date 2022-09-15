@@ -1,6 +1,6 @@
 import React from 'react';
 
-//https://react-bootstrap.github.io/components/carousel/
+//https://react-bootstrap.github.io/components/carousel/ <-- look into this 
 
 const Landing = () => {
     return (
