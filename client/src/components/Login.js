@@ -9,6 +9,8 @@ const Alert = React.forwardRef(function Alert(props, ref) {
 });
 */
 const Login = (props) => {
+  // TODO: test with new endpoint 
+  //TODO: once the new data bases are made I will need to update this 
   const [username, setUser] =  React.useState();
   const [password, setPassword] =  React.useState();
   const [openInvalidUser, setOpenInvalidUser] = React.useState(false);
@@ -55,7 +57,7 @@ const Login = (props) => {
             margin="dense"
             id="password"
             label="password"
-            type="text"
+            type="password"
             fullWidth
             variant="standard"
             onChange={(e) => {setPassword(e.target.value)}}
